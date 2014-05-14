@@ -52,6 +52,7 @@ var DefaultDOMPropertyConfig = {
     cellSpacing: null,
     charSet: MUST_USE_ATTRIBUTE,
     checked: MUST_USE_PROPERTY | HAS_BOOLEAN_VALUE,
+    classid: null,
     className: MUST_USE_PROPERTY,
     cols: MUST_USE_ATTRIBUTE | HAS_POSITIVE_NUMERIC_VALUE,
     colSpan: null,
