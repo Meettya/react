@@ -52,7 +52,7 @@ var DefaultDOMPropertyConfig = {
     cellSpacing: null,
     charSet: MUST_USE_ATTRIBUTE,
     checked: MUST_USE_PROPERTY | HAS_BOOLEAN_VALUE,
-    classid: null,
+    classID: null,
     className: MUST_USE_PROPERTY,
     cols: MUST_USE_ATTRIBUTE | HAS_POSITIVE_NUMERIC_VALUE,
     colSpan: null,
@@ -167,6 +167,7 @@ var DefaultDOMPropertyConfig = {
     y: MUST_USE_ATTRIBUTE
   },
   DOMAttributeNames: {
+    classID : 'classid',
     className: 'class',
     gradientTransform: 'gradientTransform',
     gradientUnits: 'gradientUnits',
